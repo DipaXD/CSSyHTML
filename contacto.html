@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Portafolio de Ariel</title>
+    <link rel="stylesheet" href="css/estilo-contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Portafolio de Ariel Di Pauli</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="habilidades.html">Habilidades</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p class="contacto-intro">¿Tienes alguna pregunta o propuesta? ¡Me encantaría escucharla! Completa el formulario a continuación y me pondré en contacto contigo lo antes posible.</p>
+            
+            <div class="form-container">
+                <form id="contact-form">
+                    <fieldset>
+                        <legend>Formulario de Contacto</legend>
+                        
+                        <div class="input-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido" required placeholder="Tu apellido">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </fieldset>
+                </form>
+            </div>
+            
+            <div class="additional-info">
+                <p>Te responderé en un plazo máximo de 24 horas. También puedes encontrarme en mis redes sociales:</p>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.instagram.com/arieldipaulii__/" class="social-link" target="_blank">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5493875331055" class="social-link" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Enviame un mensaje
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/DipaXD" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i> Visitar mi GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Ariel Di Pauli. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
